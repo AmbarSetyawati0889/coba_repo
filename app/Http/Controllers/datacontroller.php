@@ -13,7 +13,7 @@ class datacontroller extends Controller
      */
     public function index()
     {
-        return view('layout.index');
+        return view('pelanggan.index');
     }
 
     /**
@@ -23,7 +23,7 @@ class datacontroller extends Controller
      */
     public function create()
     {
-        //
+        return view ('pelanggan.create');
     }
 
     /**
@@ -34,7 +34,7 @@ class datacontroller extends Controller
      */
     public function store(Request $request)
     {
-        //
+        return'hai';
     }
 
     /**
